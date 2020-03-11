@@ -2,18 +2,24 @@
 
 td{
     text-align: center;
+    height: 140px;
+    width: 140px;
 }
 
 a{
     text-decoration: none;
     color: white;
 }
+a:hover{
+    color: red;
+}
 
 table{
+    border-radius: 5px;
     margin: auto;
     color: white;
-    border: 3px solid white;
-    margin-top: 100px;
+    border: 1px solid white;
+    margin-top: 40px;
 }
 
 .titulo{
