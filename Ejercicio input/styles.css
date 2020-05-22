@@ -1,0 +1,11 @@
+.titulo{
+    text-align: center;
+}
+
+.contenedor{
+    display: block;
+    height: 250px;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
