@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+   text-align: center;
+}
+
+.btn{
+    margin-top: 15px;
+    border-radius: 8px;
+    width: 110px;
+}
+
+
