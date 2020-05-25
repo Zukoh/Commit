@@ -10,9 +10,9 @@ function getIt(){
     xhr.addEventListener("load",function(){
         if(this.status == 200){
             let datos = JSON.parse(this.responseText);
-            date.textContent += datos.date;
-            title.textContent += datos.title;
-            explanation.textContent += datos.explanation;
+            date.textContent = datos.date;
+            title.textContent = datos.title;
+            explanation.textContent = datos.explanation;
             img.src = datos.hdurl;
 
         }else{
